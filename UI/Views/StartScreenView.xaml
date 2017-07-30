@@ -1,0 +1,22 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:UI="clr-namespace:UI" x:Class="UI.Views.StartScreen"
+        Title="StartScreen" Height="369" Width="510.331"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        AllowsTransparency="True"
+        Background="Transparent"
+        MouseDown="Down" >
+    <Grid>
+        <UI:FxWindow x:Name="windowFx" Title="CCMPanel" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
+
+        <Button Content="Exit" Height="81" Margin="20,0,20,28" VerticalAlignment="Bottom" HorizontalContentAlignment="Center" Padding="5,1,1,1" Click="Button_Click_1"/>
+        <Image x:Name="picBox" HorizontalAlignment="Left" Height="123" Margin="20,62,0,0" VerticalAlignment="Top" Width="218" Source="/UI;component/Sample.png"/>
+        <Image x:Name="picBox2" HorizontalAlignment="Left" Height="123" Margin="262,62,0,0" VerticalAlignment="Top" Width="228"/>
+       
+        <Button Content="Sample Start" HorizontalAlignment="Left" Margin="20,235,0,0" VerticalAlignment="Top" Width="470" Click="Button_Click"/>
+
+
+    </Grid>
+</Window>
